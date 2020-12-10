@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "romanNumerals"
+    }
+  },
+  "defaultProject": "romanNumerals",
+  "cli": {
+    "analytics": "fed086f4-12be-45a9-8d1a-20c4ecbf681d"
+  }
 }
