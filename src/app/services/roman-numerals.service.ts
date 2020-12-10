@@ -23,7 +23,6 @@ export class RomanNumeralsService {
             }else{
                 var x = resultado.pop();
                 var indice = (romanos.indexOf(x) +1) || (i +1);
-                console.log(indice);
                 resultado.push(romanos[i] + (romanos[indice] || "M"));
             }
         }else{
