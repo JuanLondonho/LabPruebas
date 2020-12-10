@@ -9,13 +9,6 @@ export class RomanNumeralsService {
   constructor() { }
 
   convertToRoman(numero:number) {
-    if((numero+'').indexOf('.') > -1){
-      return "El numero deber ser entero y no puede incluir puntos"
-    }else if(numero<=0){
-      return "El numero debe ser mayor o igual a 1"
-    }else if(numero>1000){
-      return "El numero debe ser menor o igual a 1000"
-    }
     var romanos = ["I", "V", "X", "L", "C", "D", "M"];
     var numeros = [1, 5, 10, 50, 100, 500, 1000];
     var resultado = [];

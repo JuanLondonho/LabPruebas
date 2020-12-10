@@ -2,15 +2,15 @@
     <div class="card w-50" >
         <div class="card-body">
             <h5 class="card-title"></h5>
-            <label style="text-align: center;" for="">Ingrese el número que desea convertir a Romano:</label>
+            <label for="">Ingrese el número que desea convertir a Romano:</label>
             <br>
             <br>
-            <div style="text-align: center;">
+            <div>
                 <input type="number" #numero>
                 <button type="button" class="btn btn-primary"(click)="convertNumber(numero.value)" style="margin-left: 10px;">Convertir</button>
             </div>
             <br>
-            <label id="answer" style="margin-top:7px; text-align: center; visibility: hidden;">El número {{decimalNumber}} en Romano es: {{romanNumber}} </label>
+            <label id="answer" style="margin-top:7px; text-align: center; visibility: hidden;"></label>
         </div>
     </div>
 </div>
